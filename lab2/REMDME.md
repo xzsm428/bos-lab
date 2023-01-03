@@ -491,7 +491,7 @@ void test1()
 
 运行结果：
 
-![image-20221106220649119](C:\Users\九日\AppData\Roaming\Typora\typora-user-images\image-20221106220649119.png)
+![image](https://user-images.githubusercontent.com/109144528/210307032-3473e137-6998-4295-a49d-53649254dc72.png)
 
 可以看到线程正常调度，三个api:malloc，realloc和free均正常运行。
 
@@ -513,7 +513,7 @@ void test2()
 
 运行结果：
 
-![image-20221107153340738](C:\Users\九日\AppData\Roaming\Typora\typora-user-images\image-20221107153340738.png)
+![image](https://user-images.githubusercontent.com/109144528/210307051-a4a8ffdf-048b-4808-8849-34943f40ee7b.png)
 
 ### 四、代码模块
 
