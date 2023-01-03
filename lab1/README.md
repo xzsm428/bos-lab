@@ -324,9 +324,9 @@ void fun1() {
 
 运行结果（截取部分）：
 
-![image-20221020112445954](C:\Users\九日\AppData\Roaming\Typora\typora-user-images\image-20221020112445954.png)
+![image](https://user-images.githubusercontent.com/109144528/210306774-bdb98323-30c5-43f3-a6ba-a5b7909f5cfb.png)
 
-![image-20221020112529315](C:\Users\九日\AppData\Roaming\Typora\typora-user-images\image-20221020112529315.png)
+![image](https://user-images.githubusercontent.com/109144528/210306789-2949203b-405d-4ead-8b0c-b938d13fc424.png)
 
 从输出的信息中可以看到切换的时机，切换前后线程的id以及两个线程的状态。可以看到线程按照设定的睡眠时间来执行，并且在count1~count3计数到5后，线程进入结束态，并最终释放占用空间。各功能点正常运行。
 
